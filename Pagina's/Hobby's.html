@@ -1,0 +1,85 @@
+<!--
+    Opdracht:       Mijn Portfolio Website maken (Taak 5 Realiseren)
+    Auteur:         Boris Vasic
+    Aanmaakdatum:   17-1-2020 10:55
+    Bestandsnaam:   index.html
+!-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Titel-->
+        <title>
+            Hobby's
+        </title>
+        <!--Zoekwoorden bij google om de website makkelijker te vinden -->
+        <meta name="description" content="MijnPortfolio">
+        <meta name="keywords" content="Boris Vasic, MijnPortfolio, PortfolioBorisVasic">
+        <meta charset="UTF-8">
+        <!-- Het voegen van stylesheets en javascript. Deze stylesheet is de hoofdstylesheet voor de belangerijkste
+             opmaak, namelijk van de Home pagina en Producten zodat het bedrijf onder de indruk is.-->
+        <link rel="stylesheet" href="/StyleSheets/StyleSheet.css">
+         <!--Secundaire Stylesheet dat de opmaak maakt voor de overige pagina's zoals Contact, Werkervaring, Hobby's en Opleidingen-->
+        <link rel="stylesheet" href="/StyleSheets/SecundaireStyleSheet.css">
+    </head>
+    <!--LichtKleurBody geeft een licht blauwe achtergrond kleur aan de pagina-->
+    <body class="LichtKleurBody">
+        <ul class="MainMenu">
+            <li>
+                <a href="../index.html"  class="MenuLink">Home</a>
+            </li>
+            <li>
+                <a href="Producten.html"  class="MenuLink">Producten</a>
+                <ul class="SubMenu"> 
+                    <li> 
+                        <a href="ProductPagina's/CineCitta.html"  class="SubMenuLink">CineCitta Website</a>
+                    </li>
+                    <li>
+                        <a href="ProductPagina's/UE4project.html" class="SubMenuLink">UE4 Project</a>
+                    </li>
+                    <li>
+                        <a href="ProductPagina's/Enqu%C3%AAte.html" class="SubMenuLink">Enquête</a> 
+                    </li>
+                     <li>
+                        <a href="ProductPagina's/SuperMario.html" class="SubMenuLink">De Pixel Hoofd van Super  Mario</a>
+                    </li>
+                     <li>
+                        <a href="ProductPagina's/Lesrooster.html" class="SubMenuLink">Les rooster</a> 
+                    </li>
+                     <li>
+                        <a href="ProductPagina's/Schaakbord.html" class="SubMenuLink">Schaakbord</a> 
+                    </li>
+                     <li>
+                        <a href="ProductPagina's/Doolhof.html" class="SubMenuLink">Doolhof</a> 
+                    </li>
+                     <li>
+                        <a href="ProductPagina's/Spooktocht.html" class="SubMenuLink">Spooktocht uitnodiging</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="Opleidingen.html"  class="MenuLink">Opleidingen</a>
+            </li>
+            <li>
+                <a href="Werkervaring.html"  class="MenuLink">Werkervaring</a>
+            </li>
+            <li>
+                <a href="Hobby's.html"  class="MenuLink" id="HobbyHTMLlink">Hobby's</a>
+            </li>
+            <li>
+                <a href="Contact.html"  class="MenuLink">Contact</a>
+            </li>
+        </ul>
+        <!--HobbyTitel zorgt voor een oranje achtergrond kleur met padding als tactiek en de titel laat zien waar de pagina voor staat-->
+        <h1 id="HobbyTitel">
+            Mijn Hobby's
+        </h1>
+        <!--Foto van een geschetse Camera-->
+        <img src="../Foto's/CameraFoto.png" id="CameraFoto">
+        <!--HobbyOmschrijving geeft aan wat voor soort Hobby's ik heb-->
+        <h1 id="HobbyOmschrijving">
+            <span class="HobbySpan">Unreal Engine 4</span> <br> Projecten maken, uittesten van het systeem <br> <br> <span class="HobbySpan">YouTube</span> <br> Ik hou van filmpjes maken en editen
+            <!--Link naar mijn YouTube Kanaal "Naemzo" in een nieuw venster-->
+            <a href="https://www.youtube.com/user/TheGamingChannel7108/videos" target="_blank" class="MenuLink"> <br> <br> &nbsp;  Link naar mijn YouTube Kanaal</a>
+        </h1>
+    </body>
+</html>

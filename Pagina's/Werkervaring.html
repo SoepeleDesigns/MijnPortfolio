@@ -1,0 +1,97 @@
+<!--
+    Opdracht:       Mijn Portfolio Website maken (Taak 5 Realiseren)
+    Auteur:         Boris Vasic
+    Aanmaakdatum:   17-1-2020 10:55
+    Bestandsnaam:   index.html
+!-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Titel-->
+        <title>
+            Werkervaring
+        </title>
+        <!--Zoekwoorden bij google om de website makkelijker te vinden -->
+        <meta name="description" content="MijnPortfolio">
+        <meta name="keywords" content="Boris Vasic, MijnPortfolio, PortfolioBorisVasic">
+        <meta charset="UTF-8">
+        <!-- Het voegen van stylesheets en javascript. Deze stylesheet is de hoofdstylesheet voor de belangerijkste
+             opmaak, namelijk van de Home pagina en Producten zodat het bedrijf onder de indruk is.-->
+        <link rel="stylesheet" href="/StyleSheets/StyleSheet.css">
+        <!--Secundaire Stylesheet dat de opmaak maakt voor de overige pagina's zoals Contact, Werkervaring, Hobby's en Opleidingen-->
+        <link rel="stylesheet" href="/StyleSheets/SecundaireStyleSheet.css">
+    </head>
+    <!--LichtKleurBody geeft een licht blauwe achtergrond kleur aan de pagina-->
+    <body class="LichtKleurBody">
+        <ul class="MainMenu">
+            <li>
+                <a href="../../index.html"  class="MenuLink">Home</a>
+            </li>
+            <li>
+                <a href="Producten.html"  class="MenuLink">Producten</a>
+                <ul class="SubMenu"> 
+                    <li> 
+                        <a href="ProductPagina's/CineCitta.html"  class="SubMenuLink">CineCitta Website</a>
+                    </li>
+                    <li>
+                        <a href="ProductPagina's/UE4project.html" class="SubMenuLink">UE4 Project</a>
+                    </li>
+                    <li>
+                        <a href="ProductPagina's/Enqu%C3%AAte.html" class="SubMenuLink">Enquête</a> 
+                    </li>
+                     <li>
+                        <a href="ProductPagina's/SuperMario.html" class="SubMenuLink">De Pixel Hoofd van Super  Mario</a>
+                    </li>
+                     <li>
+                        <a href="ProductPagina's/Lesrooster.html" class="SubMenuLink">Les rooster</a> 
+                    </li>
+                     <li>
+                        <a href="ProductPagina's/Schaakbord.html" class="SubMenuLink">Schaakbord</a> 
+                    </li>
+                     <li>
+                        <a href="ProductPagina's/Doolhof.html" class="SubMenuLink">Doolhof</a> 
+                    </li>
+                     <li>
+                        <a href="ProductPagina's/Spooktocht.html" class="SubMenuLink">Spooktocht uitnodiging</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="Opleidingen.html"  class="MenuLink">Opleidingen</a>
+            </li>
+            <li>
+                <a href="Werkervaring.html"  class="MenuLink" id="WerkervaringLink">Werkervaring</a>
+            </li>
+            <li>
+                <a href="Hobby's.html"  class="MenuLink">Hobby's</a>
+            </li>
+            <li>
+                <a href="Contact.html"  class="MenuLink">Contact</a>
+            </li>
+        </ul>
+        <!--Een achtergrond foto die een schaduw heeft die de Cijfers en Vakken zal laten zien-->
+        <img src="/Foto's/Achtergrond.png" class="AchtergrondFoto">
+        <p id="WerkervaringTitel">
+            Werkervaring
+        </p>
+        <!--Foto van Zeeman-->
+        <img src="/Foto's/Zeeman.png" id="ZeemanFoto">
+        <!--Foto van Albert Heijn-->
+        <img src="/Foto's/AlbertHeijn.png" id="AHfoto">
+        <!--OmschrijvingOpleidingen die met een span via css de tekst dikgedrukt maakt-->
+        <p id="OmschrijvingWerkervaring">
+            <br> 2018 - 2019 <br> <br> <span>Winkelmedewerker</span> <br> Zeeman, Nijmegen Dukenburg <br> <br> <br> 2017 - 2018 <br> <br> <span>Vakkenvuller</span> <br> Albert Heijn, Meijhorst
+        </p>
+        <p id="ErvaringZeeman">
+            <!--ErvaringZeeman heeft een link die in een nieuw venster de pagina van Zeeman opent-->
+            <a href="https://www.zeeman.com/nl/store/nijmegen-dukenb--zwanenveld/" target="_blank" class="LinkWebsites">Website Zeeman</a> <br> <br>
+            Het was leuk om daar te werken, Collega's waren vriendelijk
+            
+        </p>
+        <p id="ErvaringAlbertHeijn">
+           <!--ErvaringAlbertHeijn heeft een link die in een nieuw venster de pagina van Albert Hijn opent-->
+            <a href="https://www.ah.nl/winkel/albert-heijn/nijmegen/meijhorst/1849" target="_blank" class="LinkWebsites">Website Albert Heijn</a> <br> <br>
+            Vakken gevuld, Klanten geholpen, het was leerzaam 
+        </p>
+    </body>
+</html>

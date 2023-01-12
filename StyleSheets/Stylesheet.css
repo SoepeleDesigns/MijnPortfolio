@@ -1,0 +1,434 @@
+
+*
+{
+    margin: 0px;
+}
+#IndexBody
+{
+    background-color: rgb(81,134,188);
+}
+@font-face
+{
+    font-family: ArialRoundedMTBold;
+    src: url(/Fonts/ArialRoundedMTBold.ttf);
+}
+.MainMenu,.SubMenu
+{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    list-style: none;
+}
+.MainMenu>li
+{
+    display: inline;
+}
+.MainMenu
+{
+    top: 4vw;
+    left: 120px;
+}
+.SubMenu
+{
+    left: 12.75%;
+    top: 170%;
+    width: 189px;
+}
+.MenuLink
+{
+    font-family: "Splash", "Arial";
+    text-decoration: none;
+    color: rgb(117,117,117);
+    background-color: rgb(255,192,0);
+    padding: 20px;
+    margin-right: 40px;
+    font-size: 26px;
+}
+.SubMenuLink
+{
+    display: block;
+    font-family: "Splash", "Arial";
+    text-decoration: none;
+    color: rgb(117,117,117);
+    background-color: rgb(255,192,0);
+    padding: 10;
+    font-size: 26px;
+    opacity: 85%;
+    text-align: center;
+}
+.SubMenuLink:hover
+{
+    background-color: rgb(255,192,0);
+    opacity: 1;
+}
+.SubMenu
+{
+    display: none;
+}
+li:hover .SubMenu
+{
+    display: block;
+    z-index: 1;
+}
+#MijnPortfolio
+{
+    font-family: "Tahoma";
+    color: rgb(255,255,255);
+    position: fixed;
+    font-size: 32px;
+    font-weight: 100;
+    top: 180px;
+    left: 470px;
+    text-align: center;
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-right: 180px;
+    padding-bottom: 50px;
+    background-color: rgb(155,155,155);
+}
+#OranjeAchtergrond
+{
+    font-family: "Tahoma";
+    position: fixed;
+    z-index: -1;
+    top: 150px;
+    left: 430px;
+    font-weight: bold;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 260px;
+    background-color: rgb(255,192,0);
+    color: rgb(117,117,117);
+}
+#FotoVanMezelf
+{
+    position: relative;
+    width: 16%;
+    margin-top: 30%;
+    margin-left: 41%;
+}
+#Home
+{
+    color: rgb(255,255,255);
+}
+#CVlink
+{
+    text-decoration: none;
+    font-family: "Tahoma";
+    color: rgb(255,255,255);
+}
+#ProductLink
+{
+    color: rgb(255,255,255);
+}
+.LichtKleurBody
+{
+    background-color: rgb(116,229,237);
+}
+#MijnProducten
+{
+    font-family: "ArialRoundedMTBold";
+    margin: 0px;
+    padding-left: 19.5%;
+    padding-right: 20%;
+    padding-top: 4%;
+    padding-bottom: 27%;
+    position: fixed;
+    left: 22%;
+    top: 20%;
+    background-color: rgb(255,192,0);
+    color: rgb(117,117,117);
+    z-index: -1;
+    font-weight: bold;
+}
+#FotoProductenVoorbeeld
+{
+    position: absolute;
+    top: 35%;
+    left: 39.5%;
+    width: 20%;
+}
+#uKuntViaHetMenu
+{
+    font-family: "ArialRoundedMTBold", "Arial";
+    color: rgb(117,117,117); 
+    top: 56%;
+    left: 33.5%;
+    position: fixed;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+#ProductGemaaktInJaartal
+{
+    font-family: "ArialRoundedMTBold", "Arial";
+    color: rgb(255,255,255); 
+    top: 70%;
+    left: 32.5%;
+    position: fixed;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+#CineCittaOpdrachtOmschrijving
+{
+    font-family: "ArialRoundedMTBold", "Arial";
+    color: rgb(255,255,255);
+    top: 68.5%;
+    left: 26%;
+    position: absolute;
+    padding-left: 0.1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.1%;
+    font-weight: bold;
+    font-size: 110%;
+    background-color: rgb(255,192,0);
+}
+#CineCittaHome
+{
+    margin: 0px;
+    width: 50.5%;
+    position: absolute;
+    left: 26%;
+    top: 20%;
+    z-index: -1;
+}
+#CineCittaLink
+{
+    color: rgb(255,255,255);
+    opacity: 100%;
+}
+#html
+{
+    font-family: "ArialRoundedMTBold", "Arial";
+    color: rgb(255,255,255);
+    font-size: 15px;
+    margin: 0px;
+    width: 50%;
+    position: absolute;
+    left: 26%;
+    top: 84%;
+    text-align-last: center;
+    background-color: rgb(155,155,155);
+    padding-top: 2%;
+    padding-right: 0.4%;
+    padding-bottom: 2%;
+}
+#htmlFoto
+{
+    margin: 0px;
+    width: 50.5%;
+    position: absolute;
+    left: 26%;
+    top: 94%;
+}
+#css
+{
+    font-family: "ArialRoundedMTBold", "Arial";
+    color: rgb(255,255,255);
+    font-size: 15px;
+    margin: 0px;
+    width: 50%;
+    position: absolute;
+    left: 26%;
+    top: 154.5%;
+    text-align-last: center;
+    background-color: rgb(155,155,155);
+    padding-top: 2%;
+    padding-right: 0.4%;
+    padding-bottom: 2%;
+}
+#cssFoto
+{
+    margin: 0px;
+    width: 50.5%;
+    position: absolute;
+    left: 26%;
+    top: 165%;
+}
+#NaarBovenLink
+{
+    position: absolute;
+    font-family: "Splash", "Arial";
+    text-decoration: none;
+    color: rgb(117,117,117);
+    background-color: rgb(255,192,0);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 16.8%;
+    padding-right: 16.8%;
+    margin-bottom: 5%;
+    font-size: 26px;
+    left: 25.7%;
+    top: 233%;
+}
+#NaarBovenLink:hover
+{
+    color: rgb(255,255,255);
+}
+#UE4projectLink,#EnqueteLink, #SuperMarioLink, #LesroosterLink, #SchaakbordLink, #DoolhofLink, #SpooktochtLink
+{
+    color: rgb(255,255,255); 
+    opacity: 100%;
+}
+#UE4projectFoto, #EnqueteFoto
+{
+    margin: 0px;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    z-index: -1;
+}
+#ue4OpdrachtOmschrijving
+{
+    font-family: "ArialRoundedMTBold", "Arial";
+    color: rgb(255,255,255); 
+    top: 80.55%;
+    left: 20%;
+    position: absolute;
+    padding: 4px;
+    padding-right: 3.8%;
+    font-weight: bold;
+    font-size: 120%;
+    background-color: rgb(255,192,0);
+}
+#EnqueteOpdrachtOmschrijving
+{
+    font-family: "ArialRoundedMTBold", "Arial";
+    color: rgb(255,255,255); 
+    top: 64.8%;
+    left: 20%;
+    position: absolute;
+    padding: 4px;
+    padding-right: 5%;
+    font-weight: bold;
+    font-size: 120%;
+    background-color: rgb(255,192,0);
+}
+#SuperMario
+{
+    margin: 0px;
+    width: 30%;
+    position: absolute;
+    left: 34%;
+    top: 20%;
+    z-index: -1;
+}
+#SuperMarioOpdrachtOmschrijving
+{
+    font-family: "ArialRoundedMTBold", "Arial";
+    color: rgb(255,255,255); 
+    top: 71%;
+    left: 34.06%;
+    position: absolute;
+    padding: 4px;
+    padding-right: 3.11%;
+    font-weight: bold;
+    font-size: 120%;
+    background-color: rgb(255,192,0);
+}
+#LesroosterFoto
+{
+    margin: 0px;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    z-index: -1;
+}
+#LesroosterOpdrachtOmschrijving
+{
+    font-family: "ArialRoundedMTBold", "Arial";
+    color: rgb(255,255,255); 
+    top: 69.7%;
+    left: 25%;
+    position: absolute;
+    padding: 4px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 6.2%;
+    padding-right: 5.7%;
+    font-weight: bold;
+    font-size: 120%;
+    background-color: rgb(255,192,0);
+}
+#SchaakbordFoto
+{
+    margin: 0px;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    z-index: -1;
+}
+#SchaakbordOpdrachtOmschrijving
+{
+    font-family: "ArialRoundedMTBold", "Arial";
+    color: rgb(255,255,255); 
+    top: 95%;
+    left: 25%;
+    position: absolute;
+    padding: 4px;
+    padding-top: 2%;
+    padding-right: 4%;
+    padding-bottom: 1%;
+    margin-bottom: 10%;
+    font-weight: bold;
+    font-size: 120%;
+    background-color: rgb(255,192,0);
+}
+#DoolhofOpdrachtOmschrijving
+{
+    font-family: "ArialRoundedMTBold", "Arial";
+    color: rgb(255,255,255); 
+    top: 69.8%;
+    left: 22.05%;
+    position: absolute;
+    padding: 4px;
+    padding-right: 4.6%;
+    padding-left: 4.5%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    font-size: 120%;
+    background-color: rgb(255,192,0);
+     text-align: center;
+}
+#DoolhofFoto
+{
+    margin: 0px;
+    width: 53%;
+    height: 50%;
+    position: absolute;
+    left: 22%;
+    top: 20%;
+    z-index: -1;
+}
+#SpooktochtFoto
+{
+    margin: 0px;
+    width: 72%;
+    height: 69%;
+    position: absolute;
+    left: 13%;
+    top: 20%;
+    z-index: -1;
+}
+#SpooktochtOpdrachtOmschrijving
+{
+    font-family: "ArialRoundedMTBold", "Arial";
+    text-align: right;
+    color: rgb(255,255,255); 
+    top: 86.1%;
+    left: 13.05%;
+    margin-bottom: 10%;
+    position: absolute;
+    padding: 1%;
+    padding-right: 1.5%;
+    font-weight: bold;
+    font-size: 120%;
+    background-color: rgb(255,192,0);
+}

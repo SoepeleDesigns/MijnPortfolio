@@ -1,0 +1,129 @@
+<!--
+    Opdracht:       Mijn Portfolio Website maken (Taak 5 Realiseren)
+    Auteur:         Boris Vasic
+    Aanmaakdatum:   17-1-2020 10:55
+    Bestandsnaam:   index.html
+!-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--titel-->
+        <title>
+            Contact
+        </title>
+        <!--Zoekwoorden bij google om de website makkelijker te vinden -->
+        <meta name="description" content="MijnPortfolio">
+        <meta name="keywords" content="Boris Vasic, MijnPortfolio, PortfolioBorisVasic">
+        <meta charset="UTF-8">
+        <!-- Het voegen van stylesheets en javascript. Deze stylesheet is de hoofdstylesheet voor de belangerijkste
+             opmaak, namelijk van de Home pagina en Producten zodat het bedrijf onder de indruk is.-->
+        <link rel="stylesheet" href="/StyleSheets/StyleSheet.css">
+        <!--Secundaire Stylesheet dat de opmaak maakt voor de overige pagina's zoals Contact, Werkervaring, Hobby's en Opleidingen-->
+        <link rel="stylesheet" href="/StyleSheets/SecundaireStyleSheet.css">
+    </head>
+    <!--ContactBody geeft een achtergrond voor de Contact pagina dat anders is dan de rest-->
+    <body id="ContactBody">
+         <!--Navigatie naar andere pagina's via een menu-->
+        <ul class="MainMenu">
+            <li>
+                <a href="../index.html"  class="MenuLink">Home</a>
+            </li>
+            <li>
+                <a href="Producten.html"  class="MenuLink" >Producten</a>
+                <ul class="SubMenu"> 
+                    <li> 
+                        <a href="ProductPagina's/CineCitta.html"  class="SubMenuLink">CineCitta Website</a>
+                    </li>
+                    <li>
+                        <a href="ProductPagina's/UE4project.html" class="SubMenuLink">UE4 Project</a>
+                    </li>
+                    <li>
+                        <a href="ProductPagina's/Enqu%C3%AAte.html" class="SubMenuLink">Enquête</a> 
+                    </li>
+                     <li>
+                        <a href="ProductPagina's/SuperMario.html" class="SubMenuLink">De Pixel Hoofd van Super  Mario</a>
+                    </li>
+                     <li>
+                        <a href="ProductPagina's/Lesrooster.html" class="SubMenuLink">Les rooster</a> 
+                    </li>
+                     <li>
+                        <a href="ProductPagina's/Schaakbord.html" class="SubMenuLink">Schaakbord</a> 
+                    </li>
+                     <li>
+                        <a href="ProductPagina's/Doolhof.html" class="SubMenuLink">Doolhof</a> 
+                    </li>
+                     <li>
+                        <a href="ProductPagina's/Spooktocht.html" class="SubMenuLink">Spooktocht uitnodiging</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="Opleidingen.html"  class="MenuLink">Opleidingen</a>
+            </li>
+            <li>
+                <a href="Werkervaring.html"  class="MenuLink">Werkervaring</a>
+            </li>
+            <li>
+                <a href="Hobby's.html"  class="MenuLink">Hobby's</a>
+            </li>
+            <li>
+                <a href="Contact.html"  class="MenuLink" id="ContactLink">Contact</a>
+            </li>
+        </ul>
+        <!--Zorgt ervoor dat er een oranje achtergrond is-->
+        <div id="ContactLaag"></div>
+        <!--Zorgt ervoor dat er een blauw achtergrond is met z-index naar voren-->
+        <div id="BlauwLaag"></div>
+        <!--Titel contact pagina -->
+        <h1 id="ContactTitel">
+            Neem contact met mij
+        </h1>
+        <!--Zorgt ervoor dat de ingevoerde gegevens verstuurd word bij de formcheck van Martijn van de Wetering -->
+        <form action="http://kw1c.meervanmartijn.nl/formcheck.php" method="post">
+        <!--Contact-form verplaats de elementen met zijn allen naar onder via css-->
+        <div class="contact-form">
+        <!--ContactFormulier maakt de opmaak van de divjes die een label en input hebben-->
+        <div class="ContactFormulier">
+            <label>Volledige Naam</label>
+            <!--Zorgt ervoor dat je je naam kan invullen-->
+            <input type="text" name="Volledige Naam" placeholder="Voer uw naam in" class="InvulLength">
+        </div>
+        <div class="ContactFormulier">
+            <label>E-mail</label>
+            <!--Zorgt ervoor dat je je e-mail kan invullen-->
+            <input type="email" name="emailadress" placeholder="Voer uw e-mailadress in" class="InvulLength">
+        </div>
+        <div class="ContactFormulier">
+            <label>Telefoonnummer</label>
+            <!--Zorgt ervoor dat je telefoonnummer kan invullen-->
+            <input type="tel" name="Telefoonnummer" placeholder="Vul je telefoonnummer in" class="InvulLength">
+        </div>
+        <div class="ContactFormulier">
+            <label>Wachtwoord</label>
+            <!--Zorgt ervoor dat je een wachtwoord kan invullen-->
+            <input type="password" name="wachtwoord" placeholder="Voer uw Wachtwoord in">
+        </div>
+        <div class="ContactFormulier">
+            <label>Bericht</label>
+            <!--Zorgt ervoor dat je een bericht kan achterlaten-->
+            <textarea maxlength="200" rows="4" cols="70" name="Bericht"></textarea>
+        </div>
+        <div class="ContactFormulier">
+            <label>Voer in op welke gewenste dag u contact graag wilt houden</label>
+            <!--Zorgt ervoor dat je een datum  kan kiezen voor een afspraak-->
+            <input type="date" name="Datum" placeholder="Voer in op welke dag u contact graag wilt houden" class="InvulLength">
+        </div>
+        <div class="ContactFormulier">
+            <label>Is het dringend?</label>
+            <!--Zorgt ervoor dat je kan laten zien of het dringend is of niet aan de web eigenaar-->
+            <input type="radio" name="Grote belang contact houden" value="Ja" checked>Ja<br>
+            <input type="radio" name="Grote belang contact houden" value="Nee">Nee<br>
+        </div>
+        </div>
+        <div class="VerstuurLink">
+            <!--Verstuurt de gegevens naar de formcheck van Martijn van de Wetering-->
+            <input type="submit" value="Verstuur" class="VerstuurLink" id="VerstuurTekst">
+        </div>
+        </form>
+    </body>
+</html>

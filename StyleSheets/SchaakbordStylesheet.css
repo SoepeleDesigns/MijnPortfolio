@@ -1,0 +1,43 @@
+/* TAAK1: Zorg ervoor dat de borders van de tabel en de cellen samengevoegd worden */
+/* TAAK1: Zorg ervoor dat de hoogte en de breedte van de cellen 50 pixels wordt */
+
+table,td
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 50.5%;
+}
+td
+{
+    background-color: #d5a878;
+    width: 50px;
+    height: 50px;
+}
+/* TAAK1: Bepaal de selector die ervoor zorgt dat je de donkerbruine vlakken om en om op het dambord krijgt */
+tr:nth-child(odd) td:nth-child(odd)
+{
+    background-color:#875b00;
+}
+tr:nth-child(even) td:nth-child(even)
+{
+    background-color:#875b00;
+}
+div
+{
+    border-radius: 200px;
+    width: 50px;
+    height: 50px;
+    
+    /* TAAK1: Rond de hoeken van het div-element af, zodat het een rondje wordt */
+    
+}
+.black
+{
+    background-color: black;
+}
+.white
+{
+    background-color: white;
+}

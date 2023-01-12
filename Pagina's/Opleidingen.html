@@ -1,0 +1,126 @@
+<!--
+    Opdracht:       Mijn Portfolio Website maken (Taak 5 Realiseren)
+    Auteur:         Boris Vasic
+    Aanmaakdatum:   17-1-2020 10:55
+    Bestandsnaam:   index.html
+!-->
+<!DOCTYPE html>
+<html>
+    <head>
+       <!--titel-->
+        <title>
+            Opleidingen
+        </title>
+        <!--Zoekwoorden bij google om de website makkelijker te vinden -->
+        <meta name="description" content="MijnPortfolio">
+        <meta name="keywords" content="Boris Vasic, MijnPortfolio, PortfolioBorisVasic">
+        <meta charset="UTF-8">
+        <!-- Het voegen van stylesheets en javascript. Deze stylesheet is de hoofdstylesheet voor de belangerijkste
+             opmaak, namelijk van de Home pagina en Producten zodat het bedrijf onder de indruk is.-->
+        <link rel="stylesheet" href="/StyleSheets/StyleSheet.css">
+        <!--Secundaire Stylesheet dat de opmaak maakt voor de overige pagina's zoals Contact, Werkervaring, Hobby's en Opleidingen-->
+        <link rel="stylesheet" href="/StyleSheets/SecundaireStyleSheet.css">
+        <!--script toont de eigenaar van de website zijn cijfers van KW1C's vakken wanneer je klikt op de button-->
+        <script src="../functions.js" defer></script>
+    </head>
+    <!--LichtKleurBody geeft een licht blauwe achtergrond kleur aan de pagina-->
+    <body class="LichtKleurBody">
+        <ul class="MainMenu">
+            <li>
+                <a href="../../index.html"  class="MenuLink">Home</a>
+            </li>
+            <li>
+                <a href="Producten.html"  class="MenuLink">Producten</a>
+                <ul class="SubMenu"> 
+                    <li> 
+                        <a href="/Pagina's/ProductPagina's/CineCitta.html"  class="SubMenuLink">CineCitta Website</a>
+                    </li>
+                    <li>
+                        <a href="/Pagina's/ProductPagina's/UE4project.html" class="SubMenuLink">UE4 Project</a>
+                    </li>
+                    <li>
+                        <a href="/Pagina's/ProductPagina's/Enqu%C3%AAte.html" class="SubMenuLink">Enquête</a> 
+                    </li>
+                     <li>
+                        <a href="/Pagina's/ProductPagina's/SuperMario.html" class="SubMenuLink">De Pixel Hoofd van Super  Mario</a>
+                    </li>
+                     <li>
+                        <a href="/Pagina's/ProductPagina's/Lesrooster.html" class="SubMenuLink">Les rooster</a> 
+                    </li>
+                     <li>
+                        <a href="/Pagina's/ProductPagina's/Schaakbord.html" class="SubMenuLink">Schaakbord</a> 
+                    </li>
+                     <li>
+                        <a href="/Pagina's/ProductPagina's/Doolhof.html" class="SubMenuLink">Doolhof</a> 
+                    </li>
+                     <li>
+                        <a href="/Pagina's/ProductPagina's/Spooktocht.html" class="SubMenuLink">Spooktocht uitnodiging</a>
+                    </li>
+                </ul>
+            </li>
+            <li>  
+                <!--OpleidingenLink (en de rest die een id heeft in de submenu) die een witte kleur geeft aan de tekst van de menu-->
+                <a href="Opleidingen.html"  class="MenuLink" id="OpleidingenLink">Opleidingen</a>
+            </li>
+            <li>
+                <a href="Werkervaring.html"  class="MenuLink">Werkervaring</a>
+            </li>
+            <li>
+                <a href="Hobby's.html"  class="MenuLink">Hobby's</a>
+            </li>
+            <li>
+                <a href="Contact.html"  class="MenuLink">Contact</a>
+            </li>
+        </ul>
+        <!--Een achtergrond foto die een schaduw heeft die de Cijfers en Vakken zal laten zien-->
+        <img src="/Foto's/Achtergrond.png" class="AchtergrondFoto">
+        <!--OpleidingTitel die met taktiek van padding de achtergrond blauw maakt-->
+        <p id="OpleidingTitel">
+            Opleidingen
+        </p>
+        <!--Foto van KW1C-->
+        <img src="/Foto's/kw1c.png" id="KW1C">
+        <!--Foto van Helicon-->
+        <img src="/Foto's/helicon.png" id="Helicon">
+        <!--OmschrijvingOpleidingen die met een button de functie  de onderstaande h1 elementen genereert met tekst van de vakken en cijfers-->
+        <p id="OmschrijvingOpleidingen">
+            2019 - Heden <br> <br> Applicatie en Mediaontwikkelaar <br> <button onclick="mijnGemiddelde()">Cijfers bekijken</button>  <br> <br> Koning Willem 1 College ICT-Academie <br> Onderwijsboulevard 3 <br> 5223 DE 's-Hertogenbosch <br> <br> 2015 - 2019 <br> <br> VMBO-K (Groen) diploma <br> Helicon VMBO, Nijmegen
+        </p>
+        <!--ErvaringKW1C heeft een link die in een nieuw venster de pagina van KW1C opent-->
+        <p id="ErvaringKW1C">
+            <a href="https://www.kw1c.nl/" target="_blank" class="LinkWebsites">Website KW1C</a> <br>
+            De Docenten en klasgenoten zijn aardig
+            
+        </p>
+        <!--ErvaringHelicon heeft een link die in een nieuw venster de pagina van Helicon opent-->
+        <p id="ErvaringHelicon">
+            <a href="https://www.helicon.nl/vmbo/helicon-vmbo-nijmegen/" target="_blank" class="LinkWebsites">Website Helicon</a> <br>
+            Een groene opleiding over de Natuur en veel outdoor. 
+        </p>
+        <!--Via javascript worden de Vakken en Cijfers gegenereert door op de button te klikken bij #OmschrijvingOpleidingen-->
+        <h1 id="vak0"></h1>
+        <h1 id="vak1"></h1>
+        <h1 id="vak2"></h1>
+        <h1 id="vak3"></h1>
+        <h1 id="vak4"></h1>
+        <h1 id="vak5"></h1>
+        <h1 id="vak6"></h1>
+        <h1 id="vak7"></h1>
+        <h1 id="vak8"></h1>
+        <h1 id="vak9"></h1>
+        <h1 id="vak10"></h1>
+        <h1 id="cijfer0"></h1>
+        <h1 id="cijfer1"></h1>
+        <h1 id="cijfer2"></h1>
+        <h1 id="cijfer3"></h1>
+        <h1 id="cijfer4"></h1>
+        <h1 id="cijfer5"></h1>
+        <h1 id="cijfer6"></h1>
+        <h1 id="cijfer7"></h1>
+        <h1 id="cijfer8"></h1>
+        <h1 id="cijfer9"></h1>
+        <h1 id="cijfer10"></h1>
+        <!--Link die je weer terugstuurt naar de informatie Opleidingen en dat de cijfer en vakken gezien kan worden ongedaan maakt.-->
+        <a href="Opleidingen.html" id="TerugNaarOpleidingInformatieLink">Terug naar Opleidingen Informatie</a>
+    </body>
+</html>

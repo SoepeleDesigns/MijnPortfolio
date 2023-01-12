@@ -1,0 +1,87 @@
+<!--
+    Opdracht:       Mijn Portfolio Website maken (Taak 5 Realiseren)
+    Auteur:         Boris Vasic
+    Aanmaakdatum:   17-1-2020 10:55
+    Bestandsnaam:   index.html
+!-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Titel-->
+        <title>
+            Producten
+        </title>
+        <!--Zoekwoorden bij google om de website makkelijker te vinden -->
+        <meta name="description" content="MijnPortfolio">
+        <meta name="keywords" content="Boris Vasic, MijnPortfolio, PortfolioBorisVasic">
+        <meta charset="UTF-8">
+        <!-- Het voegen van stylesheets en javascript. Deze stylesheet is de hoofdstylesheet voor de belangerijkste
+             opmaak, namelijk van de Home pagina en Producten zodat het bedrijf onder de indruk is.-->
+        <link rel="stylesheet" href="../StyleSheets/StyleSheet.css">
+    </head>
+    <!--LichtKleurBody geeft een licht blauwe achtergrond kleur aan de pagina-->
+    <body class="LichtKleurBody">
+        <ul class="MainMenu">
+            <li>
+                <a href="../index.html"  class="MenuLink">Home</a>
+            </li>
+            <li>
+                <a href="Producten.html"  class="MenuLink" id="ProductLink">Producten</a>
+                <ul class="SubMenu"> 
+                    <li> 
+                        <a href="ProductPagina's/CineCitta.html"  class="SubMenuLink">CineCitta Website</a>
+                    </li>
+                    <li>
+                        <a href="ProductPagina's/UE4project.html" class="SubMenuLink">UE4 Project</a>
+                    </li>
+                    <li>
+                        <a href="ProductPagina's/Enqu%C3%AAte.html" class="SubMenuLink">Enquête</a> 
+                    </li>
+                     <li>
+                        <a href="ProductPagina's/SuperMario.html" class="SubMenuLink">De Pixel Hoofd van Super  Mario</a>
+                    </li>
+                     <li>
+                        <a href="ProductPagina's/Lesrooster.html" class="SubMenuLink">Les rooster</a> 
+                    </li>
+                     <li>
+                        <a href="ProductPagina's/Schaakbord.html" class="SubMenuLink">Schaakbord</a> 
+                    </li>
+                     <li>
+                        <a href="ProductPagina's/Doolhof.html" class="SubMenuLink">Doolhof</a> 
+                    </li>
+                     <li>
+                        <a href="ProductPagina's/Spooktocht.html" class="SubMenuLink">Spooktocht uitnodiging</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="Opleidingen.html"  class="MenuLink">Opleidingen</a>
+            </li>
+            <li>
+                <a href="Werkervaring.html"  class="MenuLink">Werkervaring</a>
+            </li>
+            <li>
+                <a href="Hobby's.html"  class="MenuLink">Hobby's</a>
+            </li>
+            <li>
+                <a href="Contact.html"  class="MenuLink">Contact</a>
+            </li>
+        </ul>
+        <!--MijnProducten heeft een techniek om de achtergrond oranje te maken met padding-->
+        <h1 id="MijnProducten">
+            Mijn Producten
+        </h1>
+        <figure>
+            <img src="../Foto's/FotoProductenVoorbeeld.png" id="FotoProductenVoorbeeld">
+            <!--Geeft een beschrijving over de image, de @nbsp; en de <br> heb ik zo ingevoegd omdat ik via de stylesheet niks kon doen om de figcaption een andere positie te geven, dit is mijn alternatief-->
+            <figcaption> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Sketch van een Desktop</figcaption>
+        </figure>
+        <!--<sub> laat de text een beetje naar onder zetten als speciale opmaak.--> 
+        <p id="uKuntViaHetMenu">
+            U kunt via het menu hierboven "Producten" <br> klikken op de <sub>8</sub> verschillende gemaakte producten <br> door mij.
+        </p>
+        <p id="ProductGemaaktInJaartal">
+            Deze producten zijn gemaakt in het Koning Willem 1 <br> College tijdens Periode 1 en Periode 2 van 2019 - 2020 <br> <br> Het moeilijkste gedeelte van het maken van de <br> producten was het voegen van commentaar.
+        </p>
+    </body>
+</html>
